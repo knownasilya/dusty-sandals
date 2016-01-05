@@ -1,0 +1,1556 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x3db700" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x3dcda0" />
+  <item nodeId="node-0x3db700">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Dusty Sandals
+An Interactive Fiction by &quot;Ilya Radchenko&quot; Use American dialect, full-length room descriptions, and the serial comma
+Release 1 / Serial number 160103 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Narrow Alley
+Buildings surround you on both sides, and tower above you. To the west lies a road and to the east more alley.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd4a0" />
+      <child nodeId="node-0x3dcda0" />
+      <child nodeId="node-0x3dbe80" />
+      <child nodeId="node-0x3dd510" />
+      <child nodeId="node-0x3dcb70" />
+      <child nodeId="node-0x3dd820" />
+      <child nodeId="node-0x3dd5f0" />
+      <child nodeId="node-0x3de310" />
+      <child nodeId="node-0x3dc940" />
+      <child nodeId="node-0x3de7e0" />
+      <child nodeId="node-0x3ded20" />
+      <child nodeId="node-0x3de5b0" />
+      <child nodeId="node-0x3db7a0" />
+      <child nodeId="node-0x3ddba0" />
+      <child nodeId="node-0x3dc190" />
+      <child nodeId="node-0x3de9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de9a0">
+    <command xml:space="preserve">x stove</command>
+    <result xml:space="preserve">A stove built into the wall of the kitchen, used for cooking and heating the house.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dea10" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dea10">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dea80" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dea80">
+    <command xml:space="preserve">x chairs</command>
+    <result xml:space="preserve">Four wooden chairs to go with the table.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3deaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3deaf0">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">A simple wooden table.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3deb60" />
+    </children>
+  </item>
+  <item nodeId="node-0x3deb60">
+    <command xml:space="preserve">take candles</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3debd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3debd0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen
+A small and humble room, with a stove, table and four chairs. There are some candles on the table and a tea kettle on the stove. You can see the moon out the only window in the room.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dec40" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dec40">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3decb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3decb0">
+    <command xml:space="preserve">x moon</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dc190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3ddba0">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">
+Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de0e0" />
+      <child nodeId="node-0x3de150" />
+      <child nodeId="node-0x3ddc10" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ddc10">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ddc80" />
+      <child nodeId="node-0x3ddd60" />
+      <child nodeId="node-0x3ddcf0" />
+      <child nodeId="node-0x3ddf20" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ddf20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">There&apos;s a alley to the West of you. This might be your only chance.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ddf90" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ddf90">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">
+Alley
+A narrow alley. A woman in an old tunic is washing clothes next to her back-door, and a couple chickens run around beside her as she shoos them away.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de000" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de000">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Alley
+A narrow alley. A woman in an old tunic is washing clothes next to her back-door, and a couple chickens run around beside her as she shoos them away.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de070" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de070">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3ddcf0">
+    <command xml:space="preserve">look door</command>
+    <result xml:space="preserve">The closest doors are next to the cart and across the street but unfortunately they appear to be closed.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3ddd60">
+    <command xml:space="preserve">lok door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dddd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dddd0">
+    <command xml:space="preserve">look door</command>
+    <result xml:space="preserve">These doors seem to be a waste of time.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dde40" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dde40">
+    <command xml:space="preserve">x doors</command>
+    <result xml:space="preserve">These doors seem to be a waste of time.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ddeb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ddeb0">
+    <command xml:space="preserve">open doors</command>
+    <result xml:space="preserve">That&apos;s not something you can open.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3ddc80">
+    <command xml:space="preserve">x some-doors</command>
+    <result xml:space="preserve">You see several doors, but unfortunately all of them appear to be closed.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3de150">
+    <command xml:space="preserve">look door</command>
+    <result xml:space="preserve">These doors seem to be a waste of time.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de1c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It doesn&apos;t budge.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de230" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de230">
+    <command xml:space="preserve">open doors</command>
+    <result xml:space="preserve">It doesn&apos;t budge.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de2a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Broad Street
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3de0e0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see several doors, but unfortunately all of them appear to be closed.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3db7a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kitchen
+A small and humble room, with a stove, table and four chairs. There are some candles on the table and a tea kettle on the stove. You can see the moon out the only window in the room.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbdc0" />
+      <child nodeId="node-0x3dbbf0" />
+      <child nodeId="node-0x3db880" />
+      <child nodeId="node-0x3db980" />
+      <child nodeId="node-0x3db810" />
+      <child nodeId="node-0x3dbc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbc60">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">A simple wooden table.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3db810">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empty Courtyard
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3db980">
+    <command xml:space="preserve">you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3db9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3db9f0">
+    <command xml:space="preserve">l you</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbae0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbb30" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbb30">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Looking at yourself, you see the vague resemblance of an orphaned boy, about twelve or thirteen years of age. You are barefoot, and dressed in ragged clothing. Your hands are worn from the harsh dusty weather of this region.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbb80" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbb80">
+    <command xml:space="preserve">remember</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3db880">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Empty Courtyard
+An empty courtyard, with a hint of dust in the air. There are three exits, one East, through the main gates, another North through a small open door and the last to the West, which looks as if it&apos;s where the administrators come from.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3db930" />
+    </children>
+  </item>
+  <item nodeId="node-0x3db930">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Empty Courtyard
+An empty courtyard, with a hint of dust in the air. There are three exits, one East, through the main gates, another North through a small open door and the last to the West, which looks as if it&apos;s where the administrators come from.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dbbf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+North Gate
+The gates archway looms over you as you look up, but that doesn&apos;t last long as you get bumped to move ahead!
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dbdc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Tiny Street
+A small street that runs north to south and is littered with several small houses.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dba60" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dba60">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Tiny Street
+A small street that runs north to south and is littered with several small houses.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbe10" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbe10">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Tiny Street
+A small street that runs north to south and is littered with several small houses.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3de5b0">
+    <command xml:space="preserve">look </command>
+    <result xml:space="preserve">You open your eyes and see an unpleasent old-rugged merchant looking in through the damp hay.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de620" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de620">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(Bread)
+You see nothing special about Bread.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de690" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de690">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Bread
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de700" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de700">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Dream
+You roll over and gently sleep, as you dream of warm bread and goats milk. Zzzzzz...  Hey you hooligan! What do you think you&apos;re doing in MY cart? *crack* A sharp pain spreads through your head!
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de770" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de770">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Dream
+You roll over and gently sleep, as you dream of warm bread and goats milk. Zzzzzz...  Hey you hooligan! What do you think you&apos;re doing in MY cart? *crack* A sharp pain spreads through your head!
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3ded20">
+    <command xml:space="preserve">x moon</command>
+    <result xml:space="preserve">A big bright moon shines over the entire city.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ded90" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ded90">
+    <command xml:space="preserve">l w</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3de7e0">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de850" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de850">
+    <command xml:space="preserve">x chairs</command>
+    <result xml:space="preserve">Four wooden chairs to go with the table.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de8c0">
+    <command xml:space="preserve">x candle</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de930" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de930">
+    <command xml:space="preserve">x candles</command>
+    <result xml:space="preserve">Plain candles that are used for light once the sun goes down, or in rooms with no windows.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dc940">
+    <command xml:space="preserve">player</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc9b0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dca20" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dca20">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dca90" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dca90">
+    <command xml:space="preserve">you</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dcb00" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dcb00">
+    <command xml:space="preserve">look at self</command>
+    <result xml:space="preserve">Looking at yourself you see the vague resemblance of an orphaned boy, about twelve or thirteen years of age. You are barefoot, and dressed in ragged clothing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3de310">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Bread
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de380" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de380">
+    <command xml:space="preserve">eat bread</command>
+    <result xml:space="preserve">You eat Bread. Not bad.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de3f0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">You open your eyes and see an unpleasent old-rugged merchant looking in through the damp hay.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de460" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de460">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Dream
+You roll over and gently sleep, as you dream of warm bread and goats milk. Zzzzzz...  Hey you hooligan! What do you think you&apos;re doing in MY cart? *crack* A sharp pain spreads through your head!
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de4d0">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">
+Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3de540" />
+    </children>
+  </item>
+  <item nodeId="node-0x3de540">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">
+Dream
+You roll over and gently sleep, as you dream of warm bread and goats milk. Zzzzzz...  Hey you hooligan! What do you think you&apos;re doing in MY cart? *crack* A sharp pain spreads through your head!
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dd5f0">
+    <command xml:space="preserve">look cart</command>
+    <result xml:space="preserve">In the cart is Hay.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd660" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd660">
+    <command xml:space="preserve">x cart</command>
+    <result xml:space="preserve">The cart is empty.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd6d0">
+    <command xml:space="preserve">cart</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd740" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd740">
+    <command xml:space="preserve">look in cart</command>
+    <result xml:space="preserve">The cart is empty.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd7b0">
+    <command xml:space="preserve">look at cart</command>
+    <result xml:space="preserve">The cart is empty.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dd820">
+    <command xml:space="preserve">time</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd890" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd890">
+    <command xml:space="preserve">check time</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd900" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd900">
+    <command xml:space="preserve">date</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd970" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd970">
+    <command xml:space="preserve">run</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd9e0">
+    <command xml:space="preserve">run w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dda50" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dda50">
+    <command xml:space="preserve">run n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ddac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ddac0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Street
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3ddb30" />
+    </children>
+  </item>
+  <item nodeId="node-0x3ddb30">
+    <command xml:space="preserve">get into cart</command>
+    <result xml:space="preserve">That&apos;s not something you can enter.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dcb70">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dcbe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dcbe0">
+    <command xml:space="preserve">me</command>
+    <result xml:space="preserve">Looking at yourself, you see the vague resemblance of an orphaned boy, about twelve or thirteen years of age. You are barefoot, and dressed in ragged clothing. Your hands are worn from the harsh conditions that you live in.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dcc50" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dcc50">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">The surroundings are bare, but you sense a sort of presence, as if something of real significance has just occurred in this dusty air that you breath.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dccc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dccc0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empty Courtyard
+An empty courtyard, with a hint of dust in the air. There are three exits, one East, through the main gates, another North through a small open door and the last to the West, which looks as if it&apos;s where the administrators come from.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dcd30" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dcd30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empty Courtyard
+An empty courtyard, with a hint of dust in the air. There are three exits, one East, through the main gates, another North through a small open door and the last to the West, which looks as if it&apos;s where the administrators come from.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dd510">
+    <command xml:space="preserve">look me</command>
+    <result xml:space="preserve">Looking at yourself, you see the vague resemblance of an orphaned boy, about twelve or thirteen years of age. You are barefoot, and dressed in ragged clothing. Your hands are worn from the harsh conditions that you live in.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd580" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd580">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Street
+You can see a cart (empty) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dbe80">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">You open your eyes and see an unpleasent old-rugged merchant looking in through the damp hay.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc2a0" />
+      <child nodeId="node-0x3dc3f0" />
+      <child nodeId="node-0x3dbcd0" />
+      <child nodeId="node-0x3dbef0" />
+      <child nodeId="node-0x3dc310" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc310">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc380" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc380">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">
+Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dbef0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Dream
+You roll over and gently sleep, as you dream of warm bread and goats milk. Zzzzzz...  Hey you hooligan! What do you think you&apos;re doing in MY cart? *crack* A sharp pain spreads through your head!
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbf60" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbf60">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Empty Courtyard
+An empty courtyard, with a hint of dust in the air. There are three exits, one East, through the main gates, another North through a small open door and the last to the West, which looks as if it&apos;s where the administrators come from.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbfd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Narrow Passage
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc040" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc040">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Narrow Passage
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dbcd0">
+    <command xml:space="preserve">get into cart</command>
+    <result xml:space="preserve">That&apos;s not something you can enter.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dbd20" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dbd20">
+    <command xml:space="preserve">take cart</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc230" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc230">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a cart
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dc3f0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc460" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc460">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc4d0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc540" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc540">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">There&apos;s a alley to the West of you. This might be your only chance.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc5b0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It doesn&apos;t budge.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc620" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc620">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc690" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc690">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Broad Street
+In the North you see a crowd in the distance, and two elderly woman. Looking to the South you see a group of Roman soldiers slowly approaching.
+
+You can see a cart (in which is damp hay) here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc0b0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Alley
+A narrow alley. A woman in an old tunic is washing clothes next to her back-door, and a couple chickens run around beside her as she shoos them away.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc120" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc120">
+    <command xml:space="preserve">catch a chicken</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dc2a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dcda0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Broad Road
+A crowded road filled with merchants and people engulfs you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd270" />
+      <child nodeId="node-0x3dce80" />
+      <child nodeId="node-0x3dce10" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dce10">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Open Chamber
+An open area with a view of the overcast sky. The surroundings have an eerie feel about them.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dce80">
+    <command xml:space="preserve">take sandals</command>
+    <result xml:space="preserve">Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+Finally, some shoes that I can wear!! My feet have been sore all week!
+
+(first taking the pair of sandals)
+
+*** Run-time problem P7: Too many rulebooks in simultaneous use.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dcef0" />
+      <child nodeId="node-0x3dc7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc7e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc850" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc850">
+    <command xml:space="preserve">me</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc8c0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the pair of sandals)
+You see nothing special about the pair of sandals.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd120" />
+      <child nodeId="node-0x3dd0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd0b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Open Chamber
+An open area with a view of the overcast sky. The surroundings have an eerie feel about them.
+
+You can see a sandals here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dd120">
+    <command xml:space="preserve">look me</command>
+    <result xml:space="preserve">Looking at yourself, you see the vague resemblance of an orphaned boy, about twelve or thirteen years of age. You are barefoot, and dressed in ragged clothing. Your hands are worn from the harsh conditions that you live in.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd190" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd190">
+    <command xml:space="preserve">wearing</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd200" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd200">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Open Chamber
+An open area with a view of the overcast sky. The surroundings have an eerie feel about them.
+
+You can see a pair of sandals here.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dcef0">
+    <command xml:space="preserve">wear sandals</command>
+    <result xml:space="preserve">You put on the sandals.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dcf60" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dcf60">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Open Chamber
+An open area with a view of the overcast sky. The surroundings have an eerie feel about them.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dcfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dcfd0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the sandals)
+You see nothing special about the sandals.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd040" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd040">
+    <command xml:space="preserve">me</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc700" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc700">
+    <command xml:space="preserve">me</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dc770" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dc770">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a sandals (being worn)
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dd270">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Intersection
+This is a small intersection, which goes east to west, and in the east you can see a big building, to the west are more houses. South of the intersection is the way to your house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd2e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd350" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd350">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Big Building
+Now that you have entered the building you realize it&apos;s a court building.There are several people seated in groups all over and to the north you see a set of stairs leading to the second floor. The exit is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd3c0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Second Floor
+Not as spacious as the first floor, but still nice. Stairs lead back downstairs.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x3dd430" />
+    </children>
+  </item>
+  <item nodeId="node-0x3dd430">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Big Building
+There are several people seated in groups all over and to the north you see a set of stairs leading to the second floor. The exit is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x3dd4a0">
+    <command xml:space="preserve">get into cart</command>
+    <result xml:space="preserve">That&apos;s not something you can enter.
+
+&gt;</result>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
