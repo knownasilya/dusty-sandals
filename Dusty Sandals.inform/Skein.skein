@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1c4430" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1f8160" />
+  <activeNode nodeId="node-0x1c4430" />
   <item nodeId="node-0x1c4430">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -18,7 +18,7 @@ The narrow road meanders through the hillside, overlooking the valley, and press
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="24">YES</temporary>
+    <temporary score="36">YES</temporary>
     <children>
       <child nodeId="node-0x1f8160" />
       <child nodeId="node-0xaf4f910" />
@@ -964,13 +964,25 @@ This area looks more travelled, with trees scattered on one side and to the west
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
     <children>
+      <child nodeId="node-0xff2ac70" />
+      <child nodeId="node-0xaf5c7b0" />
       <child nodeId="node-0xaf515f0" />
       <child nodeId="node-0xaf50fd0" />
       <child nodeId="node-0xaf50f60" />
+      <child nodeId="node-0x79af90" />
     </children>
+  </item>
+  <item nodeId="node-0x79af90">
+    <command xml:space="preserve">x road</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
   </item>
   <item nodeId="node-0xaf50f60">
     <command xml:space="preserve">look</command>
@@ -1245,6 +1257,72 @@ There are several people seated in groups all over and to the north you see a se
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0xaf5c7b0">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c43860" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c43860">
+    <command xml:space="preserve">x olives</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x5cc430" />
+    </children>
+  </item>
+  <item nodeId="node-0x5cc430">
+    <command xml:space="preserve">x olive</command>
+    <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0xff2ac70">
+    <command xml:space="preserve">x olvie</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xff0d150" />
+    </children>
+  </item>
+  <item nodeId="node-0xff0d150">
+    <command xml:space="preserve">x olive</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xafe1f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xafe1f60">
+    <command xml:space="preserve">x olives</command>
+    <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
   </item>
   <item nodeId="node-0xaf4f350">
     <command xml:space="preserve">i</command>

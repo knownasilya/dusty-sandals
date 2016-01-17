@@ -23,3 +23,12 @@ Instead of going east in the Plain Road:
 	
 [Road near the Garden]
 The Road Near the Garden is west of the Plain Road. "This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east."
+
+The garden trees are scenery in the Road Near the Garden. The description is "Many trees cover the hillside. The aroma they give off reminds you of olives."
+Understand "tree", "scattered" and "olives" as the garden trees.
+
+The distant garden is scenery in the Road Near the Garden. The description is "In the distance you notice a cluster of torches moving."
+
+
+[Garden Entrance]
+The Garden Entrance is west of the Road Near the Garden. "The road splits of towards the garden in the south, and the city in the west. Road lies to the east."
