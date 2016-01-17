@@ -1,6 +1,6 @@
 "Dusty Sandals" by "Ilya Radchenko"
 Use American dialect, full-length room descriptions, and the serial comma.
-
+Release along with the "Parchment" interpreter.
 
 [Plain Road]
 The Plain Road is a room. "The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village."
