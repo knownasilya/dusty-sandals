@@ -6,6 +6,7 @@ status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbMo
 ! Identification
 
 project folder "/Users/iradchenko/sandbox/dusty-sandals/Dusty Sandals.inform"
+release to "/Users/iradchenko/sandbox/dusty-sandals/Dusty Sandals.materials/Release"
 
 ! Blorb instructions
 
