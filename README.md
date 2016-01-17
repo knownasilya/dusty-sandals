@@ -3,6 +3,8 @@
 Interactive Fiction game written with Inform7.
 This is a work in progress.
 
+To play the current version go to http://knownasilya.github.io/dusty-sandals.
+
 ## Story
 
 The premise of the story is about a boy who loses his shoes.
