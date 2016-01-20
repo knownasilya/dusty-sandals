@@ -13,6 +13,10 @@ function copy() {
   return runCommand('cp -R Dusty\\ Sandals.materials/Release/* .', execOptions);
 }
 
+function copyStyles() {
+  return runCommand('cp custom_style.css style.css', execOptions);
+}
+
 function copyIndex() {
   return runCommand('cp -R Dusty\\ Sandals.inform/Index/* .', execOptions);
 }
@@ -30,6 +34,7 @@ function returnToPreviousCheckout() {
 checkoutGhPages()
   .then(copy)
   .then(copyIndex)
+  .then(copyStyles)
   .then(addAndCommit)
   .then(returnToPreviousCheckout)
   .then(function() {
