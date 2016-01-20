@@ -29,7 +29,7 @@ Instead of going east in the Plain Road:
 The Road Near the Garden is west of the Plain Road. "This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east."
 
 The garden-trees are scenery in the Road Near the Garden. The description is "Many trees cover the hillside. The aroma they give off reminds you of olives."
-Understand "tree", "scattered" and "olives" as the garden-trees.
+Understand "tree", "trees", "scattered" and "olives" as the garden-trees.
 Printed name of the garden-trees is "trees".
 
 The distant-garden is scenery in the Road Near the Garden. The description is "The garden is in the distance."
