@@ -30,6 +30,9 @@ checkoutGhPages()
   .then(function() {
     console.log('Done. All that\'s left is to git push the ' + branch +
       ' branch.\nEx: git push origin ' + branch + '\n');
+  })
+  .catch(function (error) {
+    console.error(error);
   });
 
 function runCommand(/* child_process.exec args */) {
