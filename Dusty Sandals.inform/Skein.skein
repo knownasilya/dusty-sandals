@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4b39d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4b39d0" />
+  <activeNode nodeId="node-0x1234d850" />
   <item nodeId="node-0x4b39d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -18,7 +18,7 @@ The narrow road meanders through the hillside, overlooking the valley, and press
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="32">YES</temporary>
+    <temporary score="61">YES</temporary>
     <children>
       <child nodeId="node-0x4753f0" />
       <child nodeId="node-0x480b50" />
@@ -1028,10 +1028,11 @@ This area looks more travelled, with trees scattered on one side and to the west
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="32">YES</temporary>
+    <temporary score="61">YES</temporary>
     <children>
       <child nodeId="node-0xad78750" />
       <child nodeId="node-0x46c730" />
+      <child nodeId="node-0x3093180" />
       <child nodeId="node-0x49dbe0" />
       <child nodeId="node-0x440700" />
       <child nodeId="node-0x49b6c0" />
@@ -1354,6 +1355,118 @@ An open area with a view of the overcast sky. The surroundings have an eerie fee
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x3093180">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Garden Entrance
+A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xad62250" />
+      <child nodeId="node-0x16c2e820" />
+    </children>
+  </item>
+  <item nodeId="node-0x16c2e820">
+    <command xml:space="preserve">x group</command>
+    <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x30d67f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x30d67f0">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x30dc200" />
+    </children>
+  </item>
+  <item nodeId="node-0x30dc200">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">[going west]
+
+City Road
+The group continues towards the city.  The city walls rise up before you as you approach the city. The city gate is towards the west, and the garden is towards the east.
+
+[going west - succeeded]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0xad62250">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+City Road
+The group continues towards the city.  The city walls rise up before you as you approach the city. The city gate is towards the west, and the garden is towards the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x5f86b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5f86b0">
+    <command xml:space="preserve">x group</command>
+    <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e65b0" />
+      <child nodeId="node-0x12338200" />
+    </children>
+  </item>
+  <item nodeId="node-0x12338200">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garden Entrance
+The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1234d850" />
+    </children>
+  </item>
+  <item nodeId="node-0x1234d850">
+    <command xml:space="preserve">x group</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0x4e65b0">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="41">YES</temporary>
   </item>
   <item nodeId="node-0x46c730">
     <command xml:space="preserve">x olvie</command>

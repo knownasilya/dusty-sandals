@@ -45,10 +45,18 @@ After examining the distant-garden:
 The Garden Entrance is west of the Road Near the Garden. "[if unvisited]A group of people holding torches emerges from the garden. [end if]The road splits off towards the garden in the south, and the city in the west. Road lies to the east."
 
 The torch-group is scenery in the Garden Entrance. The description is "A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers."
-Understand "group" and "torch" as torch-group.
+Understand "group", "torches", "people" and "torch" as torch-group.
 The printed name of the torch-group is "group".
 
 Instead of talking to the torch-group:
 	say "That's probably not a good idea, since you don't want to draw attention to yourself."
+	
+	
+[Road to City]
+The City Road is west of the Garden Entrance. "[if unvisited]The group continues towards the city. [end if] The city walls rise up before you as you approach the city. The city gate is towards the west, and the garden is towards the east."
+
+Before going to the City Road for the first time:
+	now the torch-group is in the City Road
+
 	
 Test me with "w / w / talk to group"
