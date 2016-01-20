@@ -14,7 +14,7 @@ function copy() {
 }
 
 function copyIndex() {
-  return runCommand('cp -R Dusty\ Sandals.inform/Index/* .', execOptions);
+  return runCommand('cp -R Dusty\\ Sandals.inform/Index/* .', execOptions);
 }
 
 function addAndCommit() {
