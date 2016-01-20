@@ -1,0 +1,28 @@
+{
+  "name": "dusty-sandals",
+  "version": "1.0.0",
+  "description": "Interactive Fiction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node deploy-gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knownasilya/dusty-sandals.git"
+  },
+  "keywords": [
+    "interactive",
+    "fiction",
+    "inform7"
+  ],
+  "author": "Ilya Radchenko <ilya@burstcreations.com> (https://github.com/knownasilya)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knownasilya/dusty-sandals/issues"
+  },
+  "homepage": "https://github.com/knownasilya/dusty-sandals#readme",
+  "devDependencies": {
+    "rsvp": "^3.1.0"
+  }
+}
