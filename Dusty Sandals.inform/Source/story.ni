@@ -66,7 +66,6 @@ After talking to Peter for the first time:
 	now the torch-group is in the City Road;
 
 
-	
 [Road to City]
 The City Road is west of the Garden Entrance. "[if unvisited]The group continues towards the city. [end if] The city walls rise up before you as you approach the city. The city gate is towards the west, and the garden is towards the east."
 
