@@ -53,14 +53,17 @@ After examining the distant-garden:
 The Garden Entrance is west of the Road Near the Garden. "[if unvisited]A group of people holding torches emerges from the garden. [end if]The road splits off towards the garden in the south, and the city in the west. Road lies to the east."
 
 The torch-group is scenery in the Garden Entrance. The description is "A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers."
-Understand "group", "torches", "people" and "torch" as torch-group.
-The printed name of the torch-group is "group".
+Understand "crowd", "group", "torches", "people", "soldiers", "priests" and "torch" as torch-group.
+The printed name of the torch-group is "crowd".
 
 Instead of talking to the torch-group:
 	say "That's probably not a good idea, since you don't want to draw attention to yourself."
 	
 After examining the torch-group for the first time:
 	now Peter is in the Garden Entrance;
+	
+Instead of asking Peter about "crowd":
+	Say "I never thought this would happen.. he said.."
 	
 After talking to Peter for the first time:
 	now the torch-group is in the City Road;

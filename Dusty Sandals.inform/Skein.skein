@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4b39d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4b39d0" />
+  <activeNode nodeId="node-0x1582fd60" />
   <item nodeId="node-0x4b39d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -18,11 +18,12 @@ The narrow road meanders through the hillside, overlooking the valley, and press
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="106">YES</temporary>
+    <temporary score="111">YES</temporary>
     <children>
       <child nodeId="node-0x4753f0" />
       <child nodeId="node-0x1234bd40" />
       <child nodeId="node-0x468e00" />
+      <child nodeId="node-0x16b3d7b0" />
       <child nodeId="node-0x440690" />
       <child nodeId="node-0x44a5f0" />
       <child nodeId="node-0x16b2e0f0" />
@@ -88,17 +89,23 @@ This area looks more travelled, with trees scattered on one side and to the west
 &gt;[2] w
 
 Garden Entrance
-A group of people holding torches emerges from the garden. The road splits of towards the garden in the south, and the city in the west. Road lies to the east.
+A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
 
 &gt;[3] talk to group
 That&apos;s probably not a good idea, since you don&apos;t want to draw attention to yourself.
 
+&gt;[4] x group
+A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+
+&gt;[5] talk to stranger
+The downcast stranger has nothing to say.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="111">YES</temporary>
     <children>
-      <child nodeId="node-0x498a20" />
+      <child nodeId="node-0x1582fd60" />
       <child nodeId="node-0x6abff0" />
     </children>
   </item>
@@ -112,30 +119,15 @@ This area looks more travelled, with trees scattered on one side and to the west
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x3015f10" />
-    </children>
   </item>
-  <item nodeId="node-0x3015f10">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Garden Entrance
-The road splits of towards the garden in the south, and the city in the west. Road lies to the east.
+  <item nodeId="node-0x1582fd60">
+    <command xml:space="preserve">ask stranger about crowd</command>
+    <result xml:space="preserve">I never thought this would happen.. he said..
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="13">YES</temporary>
-  </item>
-  <item nodeId="node-0x498a20">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the group)
-A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="110">YES</temporary>
   </item>
   <item nodeId="node-0x4580c0">
     <command xml:space="preserve">x valley</command>
@@ -193,18 +185,6 @@ A group of soldiers, priests and other individuals are walking out of the garden
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x4728f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4728f0">
-    <command xml:space="preserve">x mountain</command>
-    <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
   </item>
   <item nodeId="node-0x16b2e0f0">
     <command xml:space="preserve">x</command>
@@ -743,6 +723,58 @@ This area looks more travelled, with trees scattered on one side and to the west
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0x16b3d7b0">
+    <command xml:space="preserve">testme</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x15817b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x15817b60">
+    <command xml:space="preserve">testme</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x16b756a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16b756a0">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] w
+
+Road Near the Garden
+This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
+
+&gt;[2] w
+
+Garden Entrance
+A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
+
+&gt;[3] talk to group
+That&apos;s probably not a good idea, since you don&apos;t want to draw attention to yourself.
+
+&gt;[4] x group
+A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+
+&gt;[5] talk to stranger
+The downcast stranger has nothing to say.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="108">YES</temporary>
   </item>
   <item nodeId="node-0x468e00">
     <command xml:space="preserve">e</command>
