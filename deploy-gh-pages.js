@@ -10,7 +10,7 @@ function checkoutGhPages() {
 }
 
 function copy() {
-  return runCommand('cp -R "Dusty Sandals.materials/Release/*" .', execOptions);
+  return runCommand('cp -R Dusty\\ Sandals.materials/Release/* .', execOptions);
 }
 
 function addAndCommit() {
