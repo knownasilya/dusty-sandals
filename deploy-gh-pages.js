@@ -13,6 +13,10 @@ function copy() {
   return runCommand('cp -R Dusty\\ Sandals.materials/Release/* .', execOptions);
 }
 
+function copyIndex() {
+  return runCommand('cp -R Dusty\ Sandals.inform/Index/* .', execOptions);
+}
+
 function addAndCommit() {
   return runCommand('git add . && git commit -m "build"', execOptions)
 }
@@ -25,6 +29,7 @@ function returnToPreviousCheckout() {
 
 checkoutGhPages()
   .then(copy)
+  .then(copyIndex)
   .then(addAndCommit)
   .then(returnToPreviousCheckout)
   .then(function() {
