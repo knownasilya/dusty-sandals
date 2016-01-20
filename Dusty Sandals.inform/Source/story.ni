@@ -20,7 +20,6 @@ Understand "road" and "dusty" as the dusty road.
 
 The distant city is scenery in the Plain Road. The description is "The city lies in the distance, although it's hard to see from here, as it's across the valley."
 
-
 Instead of going east in the Plain Road:
 	say "There is nothing left for you in the village, except memories of the past."
 	
@@ -37,8 +36,9 @@ The distant-garden is scenery in the Road Near the Garden. The description is "T
 Understand "garden" as the distant-garden.
 The printed name is "garden".
 
-After examining the distant-garden for the first time:
-	Say "You notice a cluster of torches moving throught the garden west towards the city."
+After examining the distant-garden:
+	If the player is in the Road Near the Garden for the first time:
+		Say "You notice a cluster of torches moving throught the garden west towards the city."
 
 
 [Garden Entrance]

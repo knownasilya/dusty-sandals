@@ -18,7 +18,7 @@ The narrow road meanders through the hillside, overlooking the valley, and press
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="32">YES</temporary>
     <children>
       <child nodeId="node-0x4753f0" />
       <child nodeId="node-0x480b50" />
@@ -1028,7 +1028,7 @@ This area looks more travelled, with trees scattered on one side and to the west
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="32">YES</temporary>
     <children>
       <child nodeId="node-0xad78750" />
       <child nodeId="node-0x46c730" />
@@ -1392,12 +1392,12 @@ An open area with a view of the overcast sky. The surroundings have an eerie fee
     <command xml:space="preserve">x garden</command>
     <result xml:space="preserve">The garden is in the distance.
 
-You notice a cluster of torches moving throught the garden towards the city.
+You notice a cluster of torches moving throught the garden west towards the city.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="32">YES</temporary>
     <children>
       <child nodeId="node-0x6c7080" />
     </children>
@@ -1406,10 +1406,52 @@ You notice a cluster of torches moving throught the garden towards the city.
     <command xml:space="preserve">x garden</command>
     <result xml:space="preserve">The garden is in the distance.
 
+You notice a cluster of torches moving throught the garden west towards the city.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="22">YES</temporary>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x652e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x652e00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Plain Road
+The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x2b0670" />
+    </children>
+  </item>
+  <item nodeId="node-0x2b0670">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Road Near the Garden
+This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x2d8820" />
+    </children>
+  </item>
+  <item nodeId="node-0x2d8820">
+    <command xml:space="preserve">x garden</command>
+    <result xml:space="preserve">The garden is in the distance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
   </item>
   <item nodeId="node-0x46d370">
     <command xml:space="preserve">i</command>
