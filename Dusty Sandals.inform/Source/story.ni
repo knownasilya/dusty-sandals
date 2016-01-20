@@ -2,6 +2,11 @@
 Use American dialect, full-length room descriptions, and the serial comma.
 Release along with the "Parchment" interpreter.
 
+Talking to is an action applying to one visible thing. Understand "talk to [something]" as talking to.
+
+Check talking to:
+	say "You can't do that." instead.
+
 [Plain Road]
 The Plain Road is a room. "The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village."
 
@@ -32,3 +37,12 @@ The distant garden is scenery in the Road Near the Garden. The description is "I
 
 [Garden Entrance]
 The Garden Entrance is west of the Road Near the Garden. "The road splits of towards the garden in the south, and the city in the west. Road lies to the east."
+
+The torch-group is scenery in the Garden Entrance. The description is "A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers."
+Understand "group" and "torch" as torch-group.
+The printed name of the torch-group is "group".
+
+Instead of talking to the torch-group:
+	say "That's probably not a good idea, since you don't want to draw attention to yourself."
+	
+Test me with "w / w / talk to group"
