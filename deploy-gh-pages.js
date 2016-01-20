@@ -45,7 +45,7 @@ function runCommand(/* child_process.exec args */) {
 
   var lastIndex = args.length - 1;
   var lastArg   = args[lastIndex];
-  var logOutput = false;
+  var logOutput = true;
   if (typeof lastArg === 'boolean') {
     logOutput = lastArg;
     args.splice(lastIndex);
