@@ -5,7 +5,15 @@ Release along with the "Parchment" interpreter.
 Talking to is an action applying to one visible thing. Understand "talk to [something]" as talking to.
 
 Check talking to:
-	say "You can't do that." instead.
+	say "The [noun] has nothing to say." instead.
+	
+Peter is a man. Peter is nowhere.
+Rule for printing the name of Peter: say "downcast stranger".
+Understand "downcast" and "stranger" as Peter.
+
+
+	
+Chapter 1 - The Entrance
 
 [Plain Road]
 The Plain Road is a room. "The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village."
@@ -51,12 +59,16 @@ The printed name of the torch-group is "group".
 Instead of talking to the torch-group:
 	say "That's probably not a good idea, since you don't want to draw attention to yourself."
 	
+After examining the torch-group for the first time:
+	now Peter is in the Garden Entrance;
+	
+After talking to Peter for the first time:
+	now the torch-group is in the City Road;
+
+
 	
 [Road to City]
 The City Road is west of the Garden Entrance. "[if unvisited]The group continues towards the city. [end if] The city walls rise up before you as you approach the city. The city gate is towards the west, and the garden is towards the east."
-
-Before going to the City Road for the first time:
-	now the torch-group is in the City Road
 
 	
 Test me with "w / w / talk to group"
