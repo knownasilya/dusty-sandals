@@ -1,34 +1,40 @@
-'use strict';
+"use strict";
 
-var exec = require('child_process').exec;
-var RSVP = require('rsvp');
+var exec = require("child_process").exec;
+var RSVP = require("rsvp");
 var execOptions = { cwd: process.cwd() };
-var branch = 'gh-pages';
+var branch = "master";
 
 function checkoutGhPages() {
-  return runCommand('git checkout ' + branch, execOptions);
+  return runCommand("git checkout " + branch, execOptions);
 }
 
 function copy() {
-  return runCommand('cp -R Dusty\\ Sandals.materials/Release/* .', execOptions);
+  return runCommand(
+    "cp -R Dusty\\ Sandals.materials/Release/* docs",
+    execOptions
+  );
 }
 
 function copyStyles() {
-  return runCommand('cp custom_style.css style.css', execOptions);
+  return runCommand("cp custom_style.css style.css", execOptions);
 }
 
 function copyIndex() {
-  return runCommand('cp -R Dusty\\ Sandals.inform/Index/* .', execOptions);
+  return runCommand("cp -R Dusty\\ Sandals.inform/Index/* .", execOptions);
 }
 
 function addAndCommit() {
-  return runCommand('git add . && git commit -m "build"', execOptions)
+  return runCommand('git add . && git commit -m "build"', execOptions);
 }
 
 function returnToPreviousCheckout() {
   // Each '\' needed to be escaped here
-  return runCommand("git checkout `git reflog HEAD | sed -n " +
-    "'/checkout/ !d; s/.* \\(\\S*\\)$/\\1/;p' | sed '2 !d'`", execOptions);
+  return runCommand(
+    "git checkout `git reflog HEAD | sed -n " +
+      "'/checkout/ !d; s/.* \\(\\S*\\)$/\\1/;p' | sed '2 !d'`",
+    execOptions
+  );
 }
 
 checkoutGhPages()
@@ -37,9 +43,14 @@ checkoutGhPages()
   .then(copyStyles)
   .then(addAndCommit)
   .then(returnToPreviousCheckout)
-  .then(function() {
-    console.log('Done. All that\'s left is to git push the ' + branch +
-      ' branch.\nEx: git push origin ' + branch + '\n');
+  .then(function () {
+    console.log(
+      "Done. All that's left is to git push the " +
+        branch +
+        " branch.\nEx: git push origin " +
+        branch +
+        "\n"
+    );
   })
   .catch(function (error) {
     console.error(error);
@@ -49,33 +60,35 @@ function runCommand(/* child_process.exec args */) {
   var args = Array.prototype.slice.call(arguments);
 
   var lastIndex = args.length - 1;
-  var lastArg   = args[lastIndex];
+  var lastArg = args[lastIndex];
   var logOutput = true;
-  if (typeof lastArg === 'boolean') {
+  if (typeof lastArg === "boolean") {
     logOutput = lastArg;
     args.splice(lastIndex);
   }
 
-  return new RSVP.Promise(function(resolve, reject) {
-    var cb = function(err, stdout, stderr) {
-      if (logOutput) {
-        if (stderr) {
-          console.log(stderr);
+  return new RSVP.Promise(
+    function (resolve, reject) {
+      var cb = function (err, stdout, stderr) {
+        if (logOutput) {
+          if (stderr) {
+            console.log(stderr);
+          }
+
+          if (stdout) {
+            console.log(stdout);
+          }
         }
 
-        if (stdout) {
-          console.log(stdout);
+        if (err) {
+          return reject(err);
         }
-      }
 
-      if (err) {
-        return reject(err);
-      }
+        return resolve();
+      };
 
-      return resolve();
-    };
-
-    args.push(cb);
-    exec.apply(exec, args);
-  }.bind(this));
+      args.push(cb);
+      exec.apply(exec, args);
+    }.bind(this)
+  );
 }
