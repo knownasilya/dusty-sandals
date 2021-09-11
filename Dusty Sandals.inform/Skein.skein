@@ -1,407 +1,420 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x4b39d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1582fd60" />
-  <item nodeId="node-0x4b39d0">
-    <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version )</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Dusty Sandals</command>
+        <result xml:space="preserve">
 
 
 
 Dusty Sandals
-An Interactive Fiction by &quot;Ilya Radchenko&quot; Use American dialect, full-length room descriptions, and the serial comma
+An Interactive Fiction by "Ilya Radchenko" Use American dialect, full-length room descriptions, and the serial comma
 Release 1 / Serial number 160120 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Plain Road
 The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x4753f0" />
-      <child nodeId="node-0x1234bd40" />
-      <child nodeId="node-0x468e00" />
-      <child nodeId="node-0x16b3d7b0" />
-      <child nodeId="node-0x440690" />
-      <child nodeId="node-0x44a5f0" />
-      <child nodeId="node-0x16b2e0f0" />
-      <child nodeId="node-0x4580c0" />
-      <child nodeId="node-0x46f000" />
-      <child nodeId="node-0x4399d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4399d0">
-    <command xml:space="preserve">c road</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+            <child nodeId="node-1003"></child>
+            <child nodeId="node-1063"></child>
+            <child nodeId="node-1007"></child>
+            <child nodeId="node-1060"></child>
+            <child nodeId="node-1024"></child>
+            <child nodeId="node-1015"></child>
+            <child nodeId="node-1065"></child>
+            <child nodeId="node-1023"></child>
+            <child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">x valley</command>
+        <result xml:space="preserve">The valley extends out and from here the city is visible.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="22">YES</temporary>
-    <children>
-      <child nodeId="node-0x43a620" />
-    </children>
-  </item>
-  <item nodeId="node-0x43a620">
-    <command xml:space="preserve">x road</command>
-    <result xml:space="preserve">The road is well travelled and dusty.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">v mount</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="22">YES</temporary>
-    <children>
-      <child nodeId="node-0x494710" />
-    </children>
-  </item>
-  <item nodeId="node-0x494710">
-    <command xml:space="preserve">x hill</command>
-    <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">x mount</command>
+        <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="22">YES</temporary>
-    <children>
-      <child nodeId="node-0x440eb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x440eb0">
-    <command xml:space="preserve">x valley</command>
-    <result xml:space="preserve">The valley extends out and from here the city is visible.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">x hillside</command>
+        <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-  </item>
-  <item nodeId="node-0x46f000">
-    <command xml:space="preserve">test me</command>
-    <result xml:space="preserve">(Testing.)
-
-&gt;[1] w
-
-Road Near the Garden
-This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
-
-&gt;[2] w
-
-Garden Entrance
-A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
-
-&gt;[3] talk to group
-That&apos;s probably not a good idea, since you don&apos;t want to draw attention to yourself.
-
-&gt;[4] x group
-A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
-
-&gt;[5] talk to stranger
-The downcast stranger has nothing to say.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">x hill</command>
+        <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="111">YES</temporary>
-    <children>
-      <child nodeId="node-0x1582fd60" />
-      <child nodeId="node-0x6abff0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6abff0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Road Near the Garden
-This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">x road</command>
+        <result xml:space="preserve">Which do you mean, the plain road valley, the plain road mount or the dusty road?
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-  </item>
-  <item nodeId="node-0x1582fd60">
-    <command xml:space="preserve">ask stranger about crowd</command>
-    <result xml:space="preserve">I never thought this would happen.. he said..
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">x city</command>
+        <result xml:space="preserve">The city lies in the distance, although it's hard to see from here, as it's across the valley.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="110">YES</temporary>
-  </item>
-  <item nodeId="node-0x4580c0">
-    <command xml:space="preserve">x valley</command>
-    <result xml:space="preserve">The valley extends out and from here the city is visible.
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x4748a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4748a0">
-    <command xml:space="preserve">v mount</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1016"></child>
+        </children>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x4748f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4748f0">
-    <command xml:space="preserve">x mount</command>
-    <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x41ced0" />
-    </children>
-  </item>
-  <item nodeId="node-0x41ced0">
-    <command xml:space="preserve">x hillside</command>
-    <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x41cf20" />
-    </children>
-  </item>
-  <item nodeId="node-0x41cf20">
-    <command xml:space="preserve">x hill</command>
-    <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-  </item>
-  <item nodeId="node-0x16b2e0f0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0xad702e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xad702e0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0x15818090" />
-    </children>
-  </item>
-  <item nodeId="node-0x15818090">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0x1581c770" />
-    </children>
-  </item>
-  <item nodeId="node-0x1581c770">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
 Road Near the Garden
 This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0x1236e600" />
-    </children>
-  </item>
-  <item nodeId="node-0x1236e600">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
 Garden Entrance
 A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0x15828dd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x15828dd0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the group)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the group)
 A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0x16c343a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x16c343a0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(downcast man)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(downcast man)
 You see nothing special about downcast man.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="106">YES</temporary>
-    <children>
-      <child nodeId="node-0x16b3f140" />
-    </children>
-  </item>
-  <item nodeId="node-0x16b3f140">
-    <command xml:space="preserve">x group</command>
-    <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">x group</command>
+        <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="105">YES</temporary>
-  </item>
-  <item nodeId="node-0x44a5f0">
-    <command xml:space="preserve">x road</command>
-    <result xml:space="preserve">Which do you mean, the plain road valley, the plain road mount or the dusty road?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="17">YES</temporary>
-  </item>
-  <item nodeId="node-0x440690">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
 Road Near the Garden
 This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0xad78750" />
-      <child nodeId="node-0x46c730" />
-      <child nodeId="node-0x3093180" />
-      <child nodeId="node-0x49dbe0" />
-      <child nodeId="node-0x49b6c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x49b6c0">
-    <command xml:space="preserve">x tree</command>
-    <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+            <child nodeId="node-1055"></child>
+            <child nodeId="node-1052"></child>
+            <child nodeId="node-1028"></child>
+            <child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0x49b730" />
-    </children>
-  </item>
-  <item nodeId="node-0x49b730">
-    <command xml:space="preserve">x olives</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">x olives</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0x49db70" />
-    </children>
-  </item>
-  <item nodeId="node-0x49db70">
-    <command xml:space="preserve">x olive</command>
-    <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">x olive</command>
+        <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-  </item>
-  <item nodeId="node-0x49dbe0">
-    <command xml:space="preserve">x road</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">x road</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-  </item>
-  <item nodeId="node-0x3093180">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">x olvie</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1053"></child>
+        </children>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">x olive</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">x olives</command>
+        <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">x garden</command>
+        <result xml:space="preserve">The garden is in the distance.
+
+You notice a cluster of torches moving throught the garden west towards the city.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1056"></child>
+        </children>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">x garden</command>
+        <result xml:space="preserve">The garden is in the distance.
+
+You notice a cluster of torches moving throught the garden west towards the city.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1057"></child>
+        </children>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Plain Road
+The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Road Near the Garden
+This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+        </children>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">x garden</command>
+        <result xml:space="preserve">The garden is in the distance.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
 Garden Entrance
 A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0xad62250" />
-      <child nodeId="node-0x16b65b80" />
-      <child nodeId="node-0x16c2e820" />
-    </children>
-  </item>
-  <item nodeId="node-0x16c2e820">
-    <command xml:space="preserve">x group</command>
-    <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+            <child nodeId="node-1044"></child>
+            <child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">x group</command>
+        <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="88">YES</temporary>
-    <children>
-      <child nodeId="node-0x30c63d0" />
-      <child nodeId="node-0x30cee10" />
-      <child nodeId="node-0x30f1cd0" />
-      <child nodeId="node-0x12327bb0" />
-      <child nodeId="node-0x16c320b0" />
-      <child nodeId="node-0x30d67f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x30d67f0">
-    <command xml:space="preserve">actions</command>
-    <result xml:space="preserve">Actions listing on.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+            <child nodeId="node-1034"></child>
+            <child nodeId="node-1039"></child>
+            <child nodeId="node-1033"></child>
+            <child nodeId="node-1043"></child>
+            <child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">x peter</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x30dc200" />
-    </children>
-  </item>
-  <item nodeId="node-0x30dc200">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">[going west]
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">x man</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">x group</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(downcast man)
+You see nothing special about downcast man.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">talk to group</command>
+        <result xml:space="preserve">That's probably not a good idea, since you don't want to draw attention to yourself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">x man</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Garden Entrance
+The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">x peter</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">x man</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">x group</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">[going west]
 
 City Road
 The group continues towards the city.  The city walls rise up before you as you approach the city. The city gate is towards the west, and the garden is towards the east.
@@ -409,348 +422,102 @@ The group continues towards the city.  The city walls rise up before you as you 
 [going west - succeeded]
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-  </item>
-  <item nodeId="node-0x16c320b0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(downcast man)
-You see nothing special about downcast man.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
-  </item>
-  <item nodeId="node-0x12327bb0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Garden Entrance
-The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x51cc90" />
-    </children>
-  </item>
-  <item nodeId="node-0x51cc90">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x16b2ad70" />
-    </children>
-  </item>
-  <item nodeId="node-0x16b2ad70">
-    <command xml:space="preserve">x peter</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1235dcc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1235dcc0">
-    <command xml:space="preserve">x man</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x12357760" />
-    </children>
-  </item>
-  <item nodeId="node-0x12357760">
-    <command xml:space="preserve">x group</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="77">YES</temporary>
-  </item>
-  <item nodeId="node-0x30f1cd0">
-    <command xml:space="preserve">talk to group</command>
-    <result xml:space="preserve">That&apos;s probably not a good idea, since you don&apos;t want to draw attention to yourself.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="66">YES</temporary>
-    <children>
-      <child nodeId="node-0x6648b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6648b0">
-    <command xml:space="preserve">x man</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="65">YES</temporary>
-  </item>
-  <item nodeId="node-0x30cee10">
-    <command xml:space="preserve">x peter</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="84">YES</temporary>
-    <children>
-      <child nodeId="node-0x1236eeb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1236eeb0">
-    <command xml:space="preserve">x man</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="83">YES</temporary>
-  </item>
-  <item nodeId="node-0x30c63d0">
-    <command xml:space="preserve">x group</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="69">YES</temporary>
-  </item>
-  <item nodeId="node-0x16b65b80">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the group)
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the group)
 A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x12368da0" />
-    </children>
-  </item>
-  <item nodeId="node-0x12368da0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the downcast man)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the downcast man)
 You see nothing special about the downcast man.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0xad8bf90" />
-    </children>
-  </item>
-  <item nodeId="node-0xad8bf90">
-    <command xml:space="preserve">talk to man</command>
-    <result xml:space="preserve">The the downcast man has nothing to say.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">talk to man</command>
+        <result xml:space="preserve">The the downcast man has nothing to say.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="97">YES</temporary>
-  </item>
-  <item nodeId="node-0xad62250">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
 City Road
 The group continues towards the city.  The city walls rise up before you as you approach the city. The city gate is towards the west, and the garden is towards the east.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="61">YES</temporary>
-    <children>
-      <child nodeId="node-0x5f86b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5f86b0">
-    <command xml:space="preserve">x group</command>
-    <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">x group</command>
+        <result xml:space="preserve">A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="61">YES</temporary>
-    <children>
-      <child nodeId="node-0x4e65b0" />
-      <child nodeId="node-0x12338200" />
-    </children>
-  </item>
-  <item nodeId="node-0x12338200">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+            <child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
 Garden Entrance
 The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="61">YES</temporary>
-    <children>
-      <child nodeId="node-0x1234d850" />
-    </children>
-  </item>
-  <item nodeId="node-0x1234d850">
-    <command xml:space="preserve">x group</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">x group</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-  </item>
-  <item nodeId="node-0x4e65b0">
-    <command xml:space="preserve">actions</command>
-    <result xml:space="preserve">Actions listing on.
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="41">YES</temporary>
-  </item>
-  <item nodeId="node-0x46c730">
-    <command xml:space="preserve">x olvie</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">testme</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x46c7a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x46c7a0">
-    <command xml:space="preserve">x olive</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1061"></child>
+        </children>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">testme</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x461660" />
-    </children>
-  </item>
-  <item nodeId="node-0x461660">
-    <command xml:space="preserve">x olives</command>
-    <result xml:space="preserve">Many trees cover the hillside. The aroma they give off reminds you of olives.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
-  </item>
-  <item nodeId="node-0xad78750">
-    <command xml:space="preserve">x garden</command>
-    <result xml:space="preserve">The garden is in the distance.
-
-You notice a cluster of torches moving throught the garden west towards the city.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c7080" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c7080">
-    <command xml:space="preserve">x garden</command>
-    <result xml:space="preserve">The garden is in the distance.
-
-You notice a cluster of torches moving throught the garden west towards the city.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0x652e00" />
-    </children>
-  </item>
-  <item nodeId="node-0x652e00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Plain Road
-The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0x2b0670" />
-    </children>
-  </item>
-  <item nodeId="node-0x2b0670">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Road Near the Garden
-This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0x2d8820" />
-    </children>
-  </item>
-  <item nodeId="node-0x2d8820">
-    <command xml:space="preserve">x garden</command>
-    <result xml:space="preserve">The garden is in the distance.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-  </item>
-  <item nodeId="node-0x16b3d7b0">
-    <command xml:space="preserve">testme</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x15817b60" />
-    </children>
-  </item>
-  <item nodeId="node-0x15817b60">
-    <command xml:space="preserve">testme</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="109">YES</temporary>
-    <children>
-      <child nodeId="node-0x16b756a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x16b756a0">
-    <command xml:space="preserve">test me</command>
-    <result xml:space="preserve">(Testing.)
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1062"></child>
+        </children>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">test me</command>
+        <result xml:space="preserve">(Testing.)
 
 &gt;[1] w
 
@@ -763,7 +530,7 @@ Garden Entrance
 A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
 
 &gt;[3] talk to group
-That&apos;s probably not a good idea, since you don&apos;t want to draw attention to yourself.
+That's probably not a good idea, since you don't want to draw attention to yourself.
 
 &gt;[4] x group
 A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
@@ -772,35 +539,110 @@ A group of soldiers, priests and other individuals are walking out of the garden
 The downcast stranger has nothing to say.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="108">YES</temporary>
-  </item>
-  <item nodeId="node-0x468e00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">There is nothing left for you in the village.
+        <commentary xml:space="preserve">[1] w
+[2] w
+[3] talk to group
+[4] x group
+[5] talk to stranger
+</commentary>
+        <children></children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">test me</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] w
+
+Road Near the Garden
+This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
+
+&gt;[2] w
+
+Garden Entrance
+A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
+
+&gt;[3] talk to group
+That's probably not a good idea, since you don't want to draw attention to yourself.
+
+&gt;[4] x group
+A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+
+&gt;[5] talk to stranger
+The downcast stranger has nothing to say.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-  </item>
-  <item nodeId="node-0x1234bd40">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
+        <commentary xml:space="preserve">[1] w
+[2] w
+[3] talk to group
+[4] x group
+[5] talk to stranger
+</commentary>
+        <children><child nodeId="node-1009"></child>
+            <child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Road Near the Garden
+This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-  </item>
-  <item nodeId="node-0x4753f0">
-    <command xml:space="preserve">x city</command>
-    <result xml:space="preserve">The city lies in the distance, although it&apos;s hard to see from here, as it&apos;s across the valley.
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">ask stranger about crowd</command>
+        <result xml:space="preserve">I never thought this would happen.. he said..
 
 &gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="23">YES</temporary>
-  </item>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">There is nothing left for you in the village.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">c road</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1004"></child>
+        </children>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">x road</command>
+        <result xml:space="preserve">The road is well travelled and dusty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">x hill</command>
+        <result xml:space="preserve">This side of the road is a mount, which rises upward out of your view.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">x valley</command>
+        <result xml:space="preserve">The valley extends out and from here the city is visible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
 </Skein>
