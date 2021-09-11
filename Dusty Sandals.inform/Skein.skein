@@ -10,7 +10,7 @@
 
 Dusty Sandals
 An Interactive Fiction by "Ilya Radchenko" Use American dialect, full-length room descriptions, and the serial comma
-Release 1 / Serial number 160120 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 210911 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Plain Road
 The narrow road meanders through the hillside, overlooking the valley, and pressed up against the mount. To the west the road continues on towards the city and to the east back to the village.
@@ -20,6 +20,7 @@ The narrow road meanders through the hillside, overlooking the valley, and press
         <children><child nodeId="node-1064"></child>
             <child nodeId="node-1003"></child>
             <child nodeId="node-1063"></child>
+            <child nodeId="node-1078"></child>
             <child nodeId="node-1007"></child>
             <child nodeId="node-1060"></child>
             <child nodeId="node-1024"></child>
@@ -596,6 +597,47 @@ This area looks more travelled, with trees scattered on one side and to the west
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">test</command>
+        <result xml:space="preserve">&gt;--&gt; The following tests are available:
+'test me'
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">test me</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] w
+
+Road Near the Garden
+This area looks more travelled, with trees scattered on one side and to the west there is a garden. The road to the village lies to the east.
+
+&gt;[2] w
+
+Garden Entrance
+A group of people holding torches emerges from the garden. The road splits off towards the garden in the south, and the city in the west. Road lies to the east.
+
+&gt;[3] talk to group
+That's probably not a good idea, since you don't want to draw attention to yourself.
+
+&gt;[4] x group
+A group of soldiers, priests and other individuals are walking out of the garden towards the city. You notice one man in chains being pushed by the soldiers.
+
+&gt;[5] talk to stranger
+The downcast stranger has nothing to say.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] w
+[2] w
+[3] talk to group
+[4] x group
+[5] talk to stranger
+</commentary>
+        <children></children>
     </item>
     <item nodeId="node-1063">
         <command xml:space="preserve">e</command>
