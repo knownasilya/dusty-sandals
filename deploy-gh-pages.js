@@ -17,11 +17,11 @@ function copy() {
 }
 
 function copyStyles() {
-  return runCommand("cp custom_style.css style.css", execOptions);
+  return runCommand("cp custom_style.css docs/style.css", execOptions);
 }
 
 function copyIndex() {
-  return runCommand("cp -R Dusty\\ Sandals.inform/Index/* .", execOptions);
+  return runCommand("cp -R Dusty\\ Sandals.inform/Index/* docs", execOptions);
 }
 
 function addAndCommit() {

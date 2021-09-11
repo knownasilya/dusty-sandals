@@ -111,6 +111,10 @@ definition of h1.
 h1 { font-size: 2em;  }
 h2 { font-size: 1em; line-height: .25;}
 
+.introduction h2 {
+  line-height: 1;
+}
+
 /* The about formatting applies to blurb information. */
 
 .about
